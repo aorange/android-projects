@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.allentang.password.MainActivity">
+
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Pass"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="359dp"
+        android:layout_marginBottom="74dp"
+        android:layout_alignBottom="@+id/clipboard"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/lengthinput"
+        android:digits="0123456789"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Length of Password"
+        android:layout_alignBottom="@+id/passwordnums"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp" />
+
+    <EditText
+        android:id="@+id/passwordnums"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Numbers in Password"
+        android:layout_above="@+id/passwordsymbol"
+        android:layout_alignRight="@+id/passwordsymbol"
+        android:layout_alignEnd="@+id/passwordsymbol"
+        android:layout_marginBottom="27dp" />
+
+    <EditText
+        android:id="@+id/passwordsymbol"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Symbols in Password"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Output"
+        android:layout_above="@+id/refresh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/clipboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copy to Clipboard"
+        android:layout_marginBottom="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

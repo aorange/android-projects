@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "883834502013",
+    "firebase_url": "https://place-knockoff.firebaseio.com",
+    "project_id": "place-knockoff",
+    "storage_bucket": "place-knockoff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883834502013:android:0f777e8660f08d1c",
+        "android_client_info": {
+          "package_name": "info.allentang.placeknockoff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883834502013-mm6q22pqupkkvobston4f7snaemlk7qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.allentang.placeknockoff",
+            "certificate_hash": "7da102dd812cdefbe6b7aa870b2ff0cb1e0416c3"
+          }
+        },
+        {
+          "client_id": "883834502013-gtaju5tonj94jvnrp71qcdhidkl1f65m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuW7m4kyBirksVex_sk-gO7EAWKOz0jy0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883834502013-gtaju5tonj94jvnrp71qcdhidkl1f65m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

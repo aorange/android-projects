@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.allentang.moviedb.DetailActivity">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/titleDetailTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="6dp"
+            android:text="Movie Title"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/popularityDetailTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Popularity"
+            android:textStyle="italic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleDetailTextView"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp" />
+
+        <ImageView
+            android:id="@+id/imageDetailView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="9dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/popularityDetailTextView"
+            app:srcCompat="@mipmap/ic_launcher"
+            tools:layout_height="100dp"
+            tools:layout_width="200dp"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/bodyDetailTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel ultrices elit, ac feugiat diam. Mauris vel nunc malesuada felis dictum varius. Vivamus vel lectus metus. Proin mollis hendrerit neque imperdiet facilisis. Praesent id finibus ligula, sit amet finibus purus. Quisque scelerisque enim a ante aliquam iaculis. Suspendisse gravida justo libero, quis tempor tellus semper quis. Etiam blandit erat eget velit volutpat, nec dignissim lacus maximus. Quisque sem purus, mollis in sem eget, vestibulum bibendum elit. Aliquam eleifend mattis mi eu facilisis. Sed feugiat nunc vel pretium ullamcorper. Aenean cursus placerat gravida.  Fusce ac porttitor nisl. Quisque non justo ornare, accumsan orci at, suscipit diam. Duis placerat lorem in orci ultricies consequat. Suspendisse iaculis nec nulla a eleifend. In hendrerit consequat accumsan. Donec at cursus purus. Phasellus convallis nunc id sem cursus, id suscipit augue eleifend.  "
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageDetailView"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/voteDetailTextView"
+            android:layout_width="92dp"
+            android:layout_height="47dp"
+            android:text="vote average"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/bodyDetailTextView"
+            app:layout_constraintHorizontal_bias="0.869"
+            android:layout_marginBottom="-8dp"
+            app:layout_constraintTop_toTopOf="@+id/popularityDetailTextView"
+            android:layout_marginTop="8dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
